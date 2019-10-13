@@ -99,7 +99,21 @@ main section:nth-child(odd) {
   background-color: #f9fafa;
 }
 
+hr {
+  margin: 1rem 0 1rem 0;
+}
+
 .resource {
   width: 100%;
+}
+
+.resource__link {
+  font-size: 1.8rem;
+  margin: 0 0 1rem 0;
+}
+
+.resource__text {
+  font-size: 1.6rem;
+  line-height: 1.8;
 }
 /*# sourceMappingURL=main.css.map */
