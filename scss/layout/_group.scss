@@ -1,0 +1,9 @@
+.group {
+    padding: 4rem;
+}
+
+main {
+    section:nth-child(odd){
+        background-color: #f9fafa;
+    }
+}
