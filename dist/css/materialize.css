@@ -3460,6 +3460,7 @@ table span.badge {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 4rem;
+  margin-top: 3rem;
 }
 
 .row:after {
@@ -4272,6 +4273,7 @@ nav.nav-extended {
 nav.nav-extended .nav-wrapper {
   min-height: 56px;
   height: auto;
+  z-index: 1;
 }
 
 nav.nav-extended .nav-content {
@@ -7476,17 +7478,17 @@ input[type=range]::-ms-thumb {
 
 .table-of-contents a {
   display: inline-block;
+  font-size: 1.4rem;
   font-weight: 300;
-  color: #757575;
+  color: #ffffff;
   padding-left: 16px;
-  height: 1.5rem;
-  line-height: 1.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
   letter-spacing: .4;
   display: inline-block;
 }
 
 .table-of-contents a:hover {
-  color: #a8a8a8;
   padding-left: 15px;
   border-left: 1px solid #ee6e73;
 }
@@ -7495,6 +7497,8 @@ input[type=range]::-ms-thumb {
   font-weight: 500;
   padding-left: 14px;
   border-left: 2px solid #ee6e73;
+  border-bottom: 2px solid #eee;
+  background-color: #ee6e73;
 }
 
 .sidenav {

@@ -5,6 +5,8 @@ nav {
     .nav-wrapper {
       min-height: $navbar-height-mobile;
       height: auto;
+
+      z-index: 1;
     }
 
     .nav-content {

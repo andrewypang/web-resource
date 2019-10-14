@@ -11,16 +11,16 @@
   }
   a {
     display: inline-block;
+    font-size: 1.4rem;
     font-weight: 300;
-    color: #757575;
+    color: #ffffff;
     padding-left: 16px;
-    height: 1.5rem;
-    line-height: 1.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
     letter-spacing: .4;
     display: inline-block;
 
     &:hover {
-      color: lighten(#757575, 20%);
       padding-left: 15px;
       border-left: 1px solid $primary-color;
     }
@@ -28,6 +28,11 @@
       font-weight: 500;
       padding-left: 14px;
       border-left: 2px solid $primary-color;
+      border-bottom: 2px solid #eee;
+
+      background-color: $primary-color;
+
     }
   }
+
 }
