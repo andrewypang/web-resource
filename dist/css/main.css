@@ -32,7 +32,12 @@ body {
 .heading-secondary {
   font-size: 4rem;
   text-transform: uppercase;
-  margin: 0 0 7rem 0;
+  margin-top: .5rem;
+}
+
+.heading--icon {
+  width: 100%;
+  font-size: 4rem;
 }
 
 .u-center-text {
@@ -105,6 +110,16 @@ hr {
 
 .resource {
   width: 100%;
+}
+
+.resource__logo {
+  width: 40px;
+  display: block;
+}
+
+.resource__logo--icon {
+  width: 100%;
+  font-size: 40px;
 }
 
 .resource__link {
