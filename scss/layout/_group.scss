@@ -6,6 +6,10 @@ main {
     section:nth-child(odd){
         background-color: #f9fafa;
     }
+
+    .group:first-of-type {
+        padding-top: 15rem;
+    }
 }
 
 hr {

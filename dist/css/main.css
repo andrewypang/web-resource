@@ -105,6 +105,10 @@ main section:nth-child(odd) {
   background-color: #f9fafa;
 }
 
+main .group:first-of-type {
+  padding-top: 15rem;
+}
+
 hr {
   margin: 1rem 0 1rem 0;
 }
