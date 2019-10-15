@@ -7,3 +7,8 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('.scrollspy').scrollSpy();
 });
+
+// INITIALIZE MOBILE COLLAPSE
+$(document).ready(function () {
+    $('.sidenav').sidenav();
+});
