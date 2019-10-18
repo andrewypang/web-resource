@@ -3,6 +3,11 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "layout/command";
 @import "layout/group";
 @import "layout/resource";
 @import "layout/section-footer";
+
+// Color
+@import "components/color-variables";
+@import "components/color-classes";

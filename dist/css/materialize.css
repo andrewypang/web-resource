@@ -3460,7 +3460,6 @@ table span.badge {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 4rem;
-  margin-top: 3rem;
 }
 
 .row:after {
@@ -4361,6 +4360,11 @@ nav .brand-logo [class^="mdi-"], nav .brand-logo [class*="mdi-"],
 nav .brand-logo i.material-icons {
   float: left;
   margin-right: 15px;
+}
+
+nav .brand-logo--icon {
+  font-size: 64px;
+  margin: 0;
 }
 
 nav .nav-title {
